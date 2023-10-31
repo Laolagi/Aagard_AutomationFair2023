@@ -1,0 +1,33 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: Machine_Overview
+  Id: g=357439b28dbdd964ab68d79482e636e8
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 650.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 600.0
+- Name: Process_Selection
+  Id: g=1a3b87c73d28f8f9d72f5aef6f833a43
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 650.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 600.0
