@@ -1,0 +1,1268 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: UN01
+  Type: UDT_Unit
+  DataType: UDT_Unit
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "185c99a1dfb75509bd15099f1b96d21d",
+     "Namespace": 7
+    },
+    "Body": {
+     "Commands": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9341272d206117a557a10ee3c495cc1f",
+       "Namespace": 7
+      },
+      "Body": {
+       "VerifySafety": false,
+       "ReleaseSafety": false,
+       "Enable": false,
+       "Disable": false,
+       "ActivateManual": false,
+       "Abort": false,
+       "Reset": false,
+       "Stop": false,
+       "PrepareExecution": false,
+       "ActivateDryCycle": false,
+       "StartExecution": false,
+       "RunComplete": false,
+       "Suspend": false,
+       "Unsuspend": false,
+       "Hold": false,
+       "Unhold": false,
+       "CodeReset": false,
+       "Rate": 0.0,
+       "StopBehavior": 0,
+       "ParkChangeover": false,
+       "MotionCalculations": false,
+       "ParkVerify": false,
+       "Verification": false
+      }
+     },
+     "Conditions": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "d824f8d3cb6ad047156a264df59312fa",
+       "Namespace": 7
+      },
+      "Body": {
+       "EStopDepressed": false,
+       "GuardDoorOpen": false,
+       "LightCurtainNotReady": false,
+       "ScannerNotReady": false,
+       "AllSafetyOK": false,
+       "NetworkNotReady": false,
+       "SupplyNotReady": false,
+       "SafetyVerified": false,
+       "SafetyReleased": false,
+       "AnyCodeResetRequested": false,
+       "AnyClearRequested": false,
+       "AnyResetRequested": false,
+       "AnyStartRequested": false,
+       "AnyAbortRequested": false,
+       "AnyStopRequested": false,
+       "AnyHoldRequested": false,
+       "AnyUnHoldRequested": false,
+       "AnySuspendRequested": false,
+       "AnyUnSuspendRequested": false,
+       "ProductionComplete": false,
+       "HoldAlert": false,
+       "HoldRequest": false,
+       "SuspendAlert": false,
+       "SuspendRequest": false,
+       "AbortRequest": false,
+       "StopRequest": false,
+       "StopBehavior": 0,
+       "ResetDone": false,
+       "DwnstrAvailForProd": false,
+       "UpstrRdyToSendProd": false,
+       "ParkChangeoverRequested": false,
+       "MotionCalculationsRequested": false,
+       "VerificationRequested": false,
+       "SuspendForUpstreamOnly": false,
+       "IgnoreActive": false,
+       "InPos": false,
+       "MyUNNum": 0
+      }
+     },
+     "EM_ConditionsALL": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "c81ad3580bf117ba58a3808fdcaf45d8",
+       "Namespace": 7
+      },
+      "Body": {
+       "Inhibit": false,
+       "Selected": false,
+       "MyEMNo": 0,
+       "EnableDone": false,
+       "AbortDone": false,
+       "ResetDone": false,
+       "StopDone": false,
+       "PrepareExecutionDone": false,
+       "StartExecutionDone": false,
+       "ActivateManualReady": false,
+       "SuspendDone": false,
+       "UnSuspendDone": false,
+       "HoldDone": false,
+       "UnHoldDone": false,
+       "CompleteDone": false,
+       "CodeResetActivated": false,
+       "DryCycleEnabled": false,
+       "LanguageInitDone": false,
+       "HoldAlert": false,
+       "HoldRequest": false,
+       "SuspendAlert": false,
+       "SuspendRequest": false,
+       "AbortRequest": false,
+       "StopRequest": false,
+       "StopBehavior": 0,
+       "AtStopPoint": false,
+       "AvailForProd": false,
+       "MotionCalculationsDone": false,
+       "VerificationDone": false,
+       "IgnoreActive": false,
+       "InPos": false,
+       "ReadyForDisable": false
+      }
+     },
+     "HMI": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "583ab10ec50bffa522538df8b913bec8",
+       "Namespace": 7
+      },
+      "Body": {
+       "CodeReset": false,
+       "Clear": false,
+       "Reset": false,
+       "Start": false,
+       "Stop": false,
+       "Hold": false,
+       "LockSafety": false,
+       "Rate": 0.0,
+       "RateMin": 0.0,
+       "RateMax": 0.0,
+       "RateUnits": "",
+       "Cfg_Name": [""],
+       "Sts_Name": ""
+      }
+     }
+    }
+   }
+  Children:
+  - Name: Commands
+    Type: UDT_Unit_Commands
+    DataType: UDT_Unit_Commands
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9341272d206117a557a10ee3c495cc1f",
+       "Namespace": 7
+      },
+      "Body": {
+       "VerifySafety": false,
+       "ReleaseSafety": false,
+       "Enable": false,
+       "Disable": false,
+       "ActivateManual": false,
+       "Abort": false,
+       "Reset": false,
+       "Stop": false,
+       "PrepareExecution": false,
+       "ActivateDryCycle": false,
+       "StartExecution": false,
+       "RunComplete": false,
+       "Suspend": false,
+       "Unsuspend": false,
+       "Hold": false,
+       "Unhold": false,
+       "CodeReset": false,
+       "Rate": 0.0,
+       "StopBehavior": 0,
+       "ParkChangeover": false,
+       "MotionCalculations": false,
+       "ParkVerify": false,
+       "Verification": false
+      }
+     }
+    Children:
+    - Name: VerifySafety
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.VerifySafety"
+    - Name: ReleaseSafety
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.ReleaseSafety"
+    - Name: Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Enable"
+    - Name: Disable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Disable"
+    - Name: ActivateManual
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.ActivateManual"
+    - Name: Abort
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Abort"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Reset"
+    - Name: Stop
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Stop"
+    - Name: PrepareExecution
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.PrepareExecution"
+    - Name: ActivateDryCycle
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.ActivateDryCycle"
+    - Name: StartExecution
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.StartExecution"
+    - Name: RunComplete
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.RunComplete"
+    - Name: Suspend
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Suspend"
+    - Name: Unsuspend
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Unsuspend"
+    - Name: Hold
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Hold"
+    - Name: Unhold
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Unhold"
+    - Name: CodeReset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.CodeReset"
+    - Name: Rate
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Rate"
+    - Name: StopBehavior
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.StopBehavior"
+    - Name: ParkChangeover
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.ParkChangeover"
+    - Name: MotionCalculations
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.MotionCalculations"
+    - Name: ParkVerify
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.ParkVerify"
+    - Name: Verification
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Commands.Verification"
+  - Name: Conditions
+    Type: UDT_Unit_Conditions
+    DataType: UDT_Unit_Conditions
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "d824f8d3cb6ad047156a264df59312fa",
+       "Namespace": 7
+      },
+      "Body": {
+       "EStopDepressed": false,
+       "GuardDoorOpen": false,
+       "LightCurtainNotReady": false,
+       "ScannerNotReady": false,
+       "AllSafetyOK": false,
+       "NetworkNotReady": false,
+       "SupplyNotReady": false,
+       "SafetyVerified": false,
+       "SafetyReleased": false,
+       "AnyCodeResetRequested": false,
+       "AnyClearRequested": false,
+       "AnyResetRequested": false,
+       "AnyStartRequested": false,
+       "AnyAbortRequested": false,
+       "AnyStopRequested": false,
+       "AnyHoldRequested": false,
+       "AnyUnHoldRequested": false,
+       "AnySuspendRequested": false,
+       "AnyUnSuspendRequested": false,
+       "ProductionComplete": false,
+       "HoldAlert": false,
+       "HoldRequest": false,
+       "SuspendAlert": false,
+       "SuspendRequest": false,
+       "AbortRequest": false,
+       "StopRequest": false,
+       "StopBehavior": 0,
+       "ResetDone": false,
+       "DwnstrAvailForProd": false,
+       "UpstrRdyToSendProd": false,
+       "ParkChangeoverRequested": false,
+       "MotionCalculationsRequested": false,
+       "VerificationRequested": false,
+       "SuspendForUpstreamOnly": false,
+       "IgnoreActive": false,
+       "InPos": false,
+       "MyUNNum": 0
+      }
+     }
+    Children:
+    - Name: EStopDepressed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.EStopDepressed"
+    - Name: GuardDoorOpen
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.GuardDoorOpen"
+    - Name: LightCurtainNotReady
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.LightCurtainNotReady"
+    - Name: ScannerNotReady
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.ScannerNotReady"
+    - Name: AllSafetyOK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AllSafetyOK"
+    - Name: NetworkNotReady
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.NetworkNotReady"
+    - Name: SupplyNotReady
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.SupplyNotReady"
+    - Name: SafetyVerified
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.SafetyVerified"
+    - Name: SafetyReleased
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.SafetyReleased"
+    - Name: AnyCodeResetRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyCodeResetRequested"
+    - Name: AnyClearRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyClearRequested"
+    - Name: AnyResetRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyResetRequested"
+    - Name: AnyStartRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyStartRequested"
+    - Name: AnyAbortRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyAbortRequested"
+    - Name: AnyStopRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyStopRequested"
+    - Name: AnyHoldRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyHoldRequested"
+    - Name: AnyUnHoldRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyUnHoldRequested"
+    - Name: AnySuspendRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnySuspendRequested"
+    - Name: AnyUnSuspendRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AnyUnSuspendRequested"
+    - Name: ProductionComplete
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.ProductionComplete"
+    - Name: HoldAlert
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.HoldAlert"
+    - Name: HoldRequest
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.HoldRequest"
+    - Name: SuspendAlert
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.SuspendAlert"
+    - Name: SuspendRequest
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.SuspendRequest"
+    - Name: AbortRequest
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.AbortRequest"
+    - Name: StopRequest
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.StopRequest"
+    - Name: StopBehavior
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.StopBehavior"
+    - Name: ResetDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.ResetDone"
+    - Name: DwnstrAvailForProd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.DwnstrAvailForProd"
+    - Name: UpstrRdyToSendProd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.UpstrRdyToSendProd"
+    - Name: ParkChangeoverRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.ParkChangeoverRequested"
+    - Name: MotionCalculationsRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.MotionCalculationsRequested"
+    - Name: VerificationRequested
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.VerificationRequested"
+    - Name: SuspendForUpstreamOnly
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.SuspendForUpstreamOnly"
+    - Name: IgnoreActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.IgnoreActive"
+    - Name: InPos
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.InPos"
+    - Name: MyUNNum
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.Conditions.MyUNNum"
+  - Name: EM_ConditionsALL
+    Type: UDT_EM_Conditions
+    DataType: UDT_EM_Conditions
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "c81ad3580bf117ba58a3808fdcaf45d8",
+       "Namespace": 7
+      },
+      "Body": {
+       "Inhibit": false,
+       "Selected": false,
+       "MyEMNo": 0,
+       "EnableDone": false,
+       "AbortDone": false,
+       "ResetDone": false,
+       "StopDone": false,
+       "PrepareExecutionDone": false,
+       "StartExecutionDone": false,
+       "ActivateManualReady": false,
+       "SuspendDone": false,
+       "UnSuspendDone": false,
+       "HoldDone": false,
+       "UnHoldDone": false,
+       "CompleteDone": false,
+       "CodeResetActivated": false,
+       "DryCycleEnabled": false,
+       "LanguageInitDone": false,
+       "HoldAlert": false,
+       "HoldRequest": false,
+       "SuspendAlert": false,
+       "SuspendRequest": false,
+       "AbortRequest": false,
+       "StopRequest": false,
+       "StopBehavior": 0,
+       "AtStopPoint": false,
+       "AvailForProd": false,
+       "MotionCalculationsDone": false,
+       "VerificationDone": false,
+       "IgnoreActive": false,
+       "InPos": false,
+       "ReadyForDisable": false
+      }
+     }
+    Children:
+    - Name: Inhibit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.Inhibit"
+    - Name: Selected
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.Selected"
+    - Name: MyEMNo
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.MyEMNo"
+    - Name: EnableDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.EnableDone"
+    - Name: AbortDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.AbortDone"
+    - Name: ResetDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.ResetDone"
+    - Name: StopDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.StopDone"
+    - Name: PrepareExecutionDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.PrepareExecutionDone"
+    - Name: StartExecutionDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.StartExecutionDone"
+    - Name: ActivateManualReady
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.ActivateManualReady"
+    - Name: SuspendDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.SuspendDone"
+    - Name: UnSuspendDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.UnSuspendDone"
+    - Name: HoldDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.HoldDone"
+    - Name: UnHoldDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.UnHoldDone"
+    - Name: CompleteDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.CompleteDone"
+    - Name: CodeResetActivated
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.CodeResetActivated"
+    - Name: DryCycleEnabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.DryCycleEnabled"
+    - Name: LanguageInitDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.LanguageInitDone"
+    - Name: HoldAlert
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.HoldAlert"
+    - Name: HoldRequest
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.HoldRequest"
+    - Name: SuspendAlert
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.SuspendAlert"
+    - Name: SuspendRequest
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.SuspendRequest"
+    - Name: AbortRequest
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.AbortRequest"
+    - Name: StopRequest
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.StopRequest"
+    - Name: StopBehavior
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.StopBehavior"
+    - Name: AtStopPoint
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.AtStopPoint"
+    - Name: AvailForProd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.AvailForProd"
+    - Name: MotionCalculationsDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.MotionCalculationsDone"
+    - Name: VerificationDone
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.VerificationDone"
+    - Name: IgnoreActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.IgnoreActive"
+    - Name: InPos
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.InPos"
+    - Name: ReadyForDisable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.EM_ConditionsALL.ReadyForDisable"
+  - Name: HMI
+    Type: UDT_Unit_HMI_Input
+    DataType: UDT_Unit_HMI_Input
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "583ab10ec50bffa522538df8b913bec8",
+       "Namespace": 7
+      },
+      "Body": {
+       "CodeReset": false,
+       "Clear": false,
+       "Reset": false,
+       "Start": false,
+       "Stop": false,
+       "Hold": false,
+       "LockSafety": false,
+       "Rate": 0.0,
+       "RateMin": 0.0,
+       "RateMax": 0.0,
+       "RateUnits": "",
+       "Cfg_Name": [""],
+       "Sts_Name": ""
+      }
+     }
+    Children:
+    - Name: CodeReset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.CodeReset"
+    - Name: Clear
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.Clear"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.Reset"
+    - Name: Start
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.Start"
+    - Name: Stop
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.Stop"
+    - Name: Hold
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.Hold"
+    - Name: LockSafety
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.LockSafety"
+    - Name: Rate
+      Id: g=a358bd2d4f1bfafbeb650338ab4f52e7
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.Rate"
+    - Name: RateMin
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.RateMin"
+    - Name: RateMax
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.RateMax"
+    - Name: RateUnits
+      Id: g=b8eb151d03baee9a59331ed457d10ce7
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.RateUnits"
+    - Name: Cfg_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [1]
+      Value: [""]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.Cfg_Name"
+    - Name: Sts_Name
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN01.HMI.Sts_Name"

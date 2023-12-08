@@ -1,0 +1,2093 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: FTME_DSPH
+  Id: g=5877dc87d58028b2a648e1d8ff23b9d0
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "FTME_DSPH",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5877dc87d58028b2a648e1d8ff23b9d0",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_DspOnTime",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"FTME_DSPH"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_MSG_BufferData
+  Id: g=a5d64b29c45fcb49ba01348ea746009b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_MSG_BufferData",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a5d64b29c45fcb49ba01348ea746009b",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Message",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "BufferID",
+      "DataType": {
+       "Id": 2
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_MSG_BufferData"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_DSP_BufferData
+  Id: g=e7c6aab45fd9db41f1b790edd08df271
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_DSP_BufferData",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e7c6aab45fd9db41f1b790edd08df271",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Display",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Type",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_DSP_BufferData"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SO_Notification
+  Id: g=96165de6e814f59b53f710baf22ebae2
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SO_Notification",
+    "DataType": {
+     "IdType": 2,
+     "Id": "96165de6e814f59b53f710baf22ebae2",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_NotCollecting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_NotCollecting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_RegComplete",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SO_Notification"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SO_EquipmentID
+  Id: g=77ed5eda47bb281eb137b675a6b67254
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SO_EquipmentID",
+    "DataType": {
+     "IdType": 2,
+     "Id": "77ed5eda47bb281eb137b675a6b67254",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_NotCollecting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_NotCollecting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_RegistryComplete",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SO_EquipmentID"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: PT_SHFTMON
+  Id: g=797cdc120ee97621b6734111f0b4a4db
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "PT_SHFTMON",
+    "DataType": {
+     "IdType": 2,
+     "Id": "797cdc120ee97621b6734111f0b4a4db",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_PreviousShiftID",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_ActiveShiftID",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"PT_SHFTMON"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ComplexOEEData_UDT
+  Id: g=ae9a5fee7d2a34238f8798348d3f0460
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ComplexOEEData_UDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ae9a5fee7d2a34238f8798348d3f0460",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Scheduled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TotalCount",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "GoodCount",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "IdealCycleTime",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Mode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "State",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ReasonCode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Category",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ContextVar01",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ContextVar02",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ContextVar03",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ContextVar04",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ComplexOEEData_UDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_PT_ShiftAdminData
+  Id: g=e3b3de09d2fdc5ee8a31338a1f3000b6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_PT_ShiftAdminData",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e3b3de09d2fdc5ee8a31338a1f3000b6",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "StartTime",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StartHour",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "StartMinute",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "StartTimeLast",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_PT_ShiftAdminData"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SO_OEEComplex
+  Id: g=80383460b6fe2a5907854c7c9155ec00
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SO_OEEComplex",
+    "DataType": {
+     "IdType": 2,
+     "Id": "80383460b6fe2a5907854c7c9155ec00",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_NotCollecting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_NotCollecting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_RegComplete",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SO_OEEComplex"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_RejectGrpNames
+  Id: g=97ef3f5d6697a3bf32c5b36609e942e5
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_RejectGrpNames",
+    "DataType": {
+     "IdType": 2,
+     "Id": "97ef3f5d6697a3bf32c5b36609e942e5",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Cfg_Name",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1]
+     },{
+      "Name": "Sts_Name",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_RejectGrpNames"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ComplexOEECfg_UDT
+  Id: g=830cd03311b8e5c4f0f72e5916af108e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ComplexOEECfg_UDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "830cd03311b8e5c4f0f72e5916af108e",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "OEETarget",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AvailTarget",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PerfTarget",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "QualTarget",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ContextVar01Label",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ContextVar02Label",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ContextVar03Label",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ContextVar04Label",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ComplexOEECfg_UDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: CONTROL
+  Id: g=04a3b4f3531027d73ca10cbc43c52a05
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "CONTROL",
+    "DataType": {
+     "IdType": 2,
+     "Id": "04a3b4f3531027d73ca10cbc43c52a05",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "LEN",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "POS",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EU",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EM",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FD",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"CONTROL"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: EquipmentIDCfg_UDT
+  Id: g=3988df2325d6356611c60ed1062ce6cb
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "EquipmentIDCfg_UDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3988df2325d6356611c60ed1062ce6cb",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "UserName",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UserAddress",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UserLocation",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UserSubLocation1",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UserSubLocation2",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UserContactName",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UserContactPhone",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UserContactEmail",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UserAssetID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "OEMName",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "OEMPhone",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "OEMEmail",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "OEMSerialNo",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "OEMModel",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "OEMSubModel1",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "OEMSubModel2",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "_raIMType",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"EquipmentIDCfg_UDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: FTME_DSPL
+  Id: g=ec3f232d971dc46e8fde785a8597d628
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "FTME_DSPL",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ec3f232d971dc46e8fde785a8597d628",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_Dsp",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_Type",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"FTME_DSPL"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: FTME_MSGH
+  Id: g=8c233a3721bcb1e2957723b6f5180f49
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "FTME_MSGH",
+    "DataType": {
+     "IdType": 2,
+     "Id": "8c233a3721bcb1e2957723b6f5180f49",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_TriggerDelay",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cfg_TriggerOnTime",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"FTME_MSGH"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Notification_UDT
+  Id: g=244340759e0da37497dfa496acdd24d1
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Notification_UDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "244340759e0da37497dfa496acdd24d1",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Severity",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Category",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Desc",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Notification_UDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: PLC_DT
+  Id: g=df764c8f234cbb110ac08ce76e5437dc
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "PLC_DT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "df764c8f234cbb110ac08ce76e5437dc",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_HMI_SetDateTimeDisplayNum",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cmd_SetDateTime",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_GetDateTime",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_TimeZone",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_ApplyDST",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_DSTAdjustment",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_LocalDateTime_Year",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_LocalDateTime_Month",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_LocalDateTime_Day",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_LocalDateTime_Hour",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_LocalDateTime_Minute",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_LocalDateTime_Second",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_LocalDateTime_Microsecond",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_LocalDateTime_Year",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_LocalDateTime_Month",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_LocalDateTime_Day",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_LocalDateTime_Hour",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_LocalDateTime_Minute",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_LocalDateTime_Second",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_LocalDateTime_Microsecond",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_InvalidDateTime",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"PLC_DT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_Unit_HMI_Input
+  Id: g=583ab10ec50bffa522538df8b913bec8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_Unit_HMI_Input",
+    "DataType": {
+     "IdType": 2,
+     "Id": "583ab10ec50bffa522538df8b913bec8",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "CodeReset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Clear",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Reset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Stop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Hold",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LockSafety",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Rate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "RateMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "RateMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "RateUnits",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Cfg_Name",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1]
+     },{
+      "Name": "Sts_Name",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_Unit_HMI_Input"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: PLC_MON
+  Id: g=aef739a6f5aaea6ce650419df4d86489
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "PLC_MON",
+    "DataType": {
+     "IdType": 2,
+     "Id": "aef739a6f5aaea6ce650419df4d86489",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearMinorFlts",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_MinorFltCnt",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_MinorFltBits",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_ControllerDevice",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"PLC_MON"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SO_SRCSimple
+  Id: g=d0f3e02476227eb5e373d75d80a36714
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SO_SRCSimple",
+    "DataType": {
+     "IdType": 2,
+     "Id": "d0f3e02476227eb5e373d75d80a36714",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_NotCollecting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_NotCollecting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_RegComplete",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SO_SRCSimple"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: StateSimple_UDT
+  Id: g=e7d16dcc0802c390979788b7e99c1f1e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "StateSimple_UDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e7d16dcc0802c390979788b7e99c1f1e",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Mode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "State",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ReasonCode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Category",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"StateSimple_UDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_SO_Node
+  Id: g=963aacce54a275a9968ae9644bc3f2f1
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_SO_Node",
+    "DataType": {
+     "IdType": 2,
+     "Id": "963aacce54a275a9968ae9644bc3f2f1",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Inp_EventTrigger",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cfg_UpdateOnEvent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Updated",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inf_ID01",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inf_ID02",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inf_Name",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Cfg_UpdatePeriod",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_ParentID",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_Time",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_RegistryIndex",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_SO_Node"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_SystemName
+  Id: g=1dbd5cc423cf5b953f31751687d4ee2c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_SystemName",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1dbd5cc423cf5b953f31751687d4ee2c",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Cfg_Name",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1]
+     },{
+      "Name": "Sts_Name",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_SystemName"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: SimData_UDT
+  Id: g=144e5f19a5317ca12a8a3f44c9ae4300
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "SimData_UDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "144e5f19a5317ca12a8a3f44c9ae4300",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Scheduled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Mode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "State",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ReasonCode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Category",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Duration",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"SimData_UDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TIMER
+  Id: g=214bfa239daf43726c861fcbb4a75dc3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TIMER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "214bfa239daf43726c861fcbb4a75dc3",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TIMER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_DSP_BufferAdmin
+  Id: g=f731fbc479b7b45906ee79474aa0e5f6
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_DSP_BufferAdmin",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f731fbc479b7b45906ee79474aa0e5f6",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "FIFO",
+      "DataType": {
+       "IdType": 2,
+       "Id": "04a3b4f3531027d73ca10cbc43c52a05",
+       "Namespace": 7
+      }
+     },{
+      "Name": "FIFOData",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e7c6aab45fd9db41f1b790edd08df271",
+       "Namespace": 7
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [20]
+     },{
+      "Name": "Sts_On_TON",
+      "DataType": {
+       "IdType": 2,
+       "Id": "214bfa239daf43726c861fcbb4a75dc3",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_DSP_BufferAdmin"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_EM_Conditions
+  Id: g=c81ad3580bf117ba58a3808fdcaf45d8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_EM_Conditions",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c81ad3580bf117ba58a3808fdcaf45d8",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Inhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Selected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MyEMNo",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EnableDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AbortDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResetDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StopDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PrepareExecutionDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartExecutionDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActivateManualReady",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SuspendDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnSuspendDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HoldDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnHoldDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CompleteDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CodeResetActivated",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DryCycleEnabled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LanguageInitDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HoldAlert",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HoldRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SuspendAlert",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SuspendRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AbortRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StopRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StopBehavior",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AtStopPoint",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AvailForProd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotionCalculationsDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VerificationDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IgnoreActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InPos",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ReadyForDisable",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_EM_Conditions"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_Unit_Commands
+  Id: g=9341272d206117a557a10ee3c495cc1f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_Unit_Commands",
+    "DataType": {
+     "IdType": 2,
+     "Id": "9341272d206117a557a10ee3c495cc1f",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "VerifySafety",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ReleaseSafety",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Enable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Disable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActivateManual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Abort",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Reset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Stop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PrepareExecution",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActivateDryCycle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartExecution",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RunComplete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Suspend",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Unsuspend",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Hold",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Unhold",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CodeReset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Rate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StopBehavior",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ParkChangeover",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotionCalculations",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ParkVerify",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Verification",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_Unit_Commands"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_MSG_BufferAdmin
+  Id: g=03c3bb584050446d71cc008d13977cda
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_MSG_BufferAdmin",
+    "DataType": {
+     "IdType": 2,
+     "Id": "03c3bb584050446d71cc008d13977cda",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "FIFO",
+      "DataType": {
+       "IdType": 2,
+       "Id": "04a3b4f3531027d73ca10cbc43c52a05",
+       "Namespace": 7
+      }
+     },{
+      "Name": "FIFOData",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a5d64b29c45fcb49ba01348ea746009b",
+       "Namespace": 7
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [30]
+     },{
+      "Name": "Out_Message",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Out_Trigger",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Sts_Step",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Sts_Delay_TON",
+      "DataType": {
+       "IdType": 2,
+       "Id": "214bfa239daf43726c861fcbb4a75dc3",
+       "Namespace": 7
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Sts_On_TON",
+      "DataType": {
+       "IdType": 2,
+       "Id": "214bfa239daf43726c861fcbb4a75dc3",
+       "Namespace": 7
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "Sts_BufferID",
+      "DataType": {
+       "Id": 2
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_MSG_BufferAdmin"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_PT_ShiftAdmin
+  Id: g=fec4a230bf0b484df510bd78493b3732
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_PT_ShiftAdmin",
+    "DataType": {
+     "IdType": 2,
+     "Id": "fec4a230bf0b484df510bd78493b3732",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e3b3de09d2fdc5ee8a31338a1f3000b6",
+       "Namespace": 7
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [3]
+     },{
+      "Name": "Cnt",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_PT_ShiftAdmin"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_Unit
+  Id: g=185c99a1dfb75509bd15099f1b96d21d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_Unit",
+    "DataType": {
+     "IdType": 2,
+     "Id": "185c99a1dfb75509bd15099f1b96d21d",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Commands",
+      "DataType": {
+       "IdType": 2,
+       "Id": "9341272d206117a557a10ee3c495cc1f",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Conditions",
+      "DataType": {
+       "IdType": 2,
+       "Id": "d824f8d3cb6ad047156a264df59312fa",
+       "Namespace": 7
+      }
+     },{
+      "Name": "EM_ConditionsALL",
+      "DataType": {
+       "IdType": 2,
+       "Id": "c81ad3580bf117ba58a3808fdcaf45d8",
+       "Namespace": 7
+      }
+     },{
+      "Name": "HMI",
+      "DataType": {
+       "IdType": 2,
+       "Id": "583ab10ec50bffa522538df8b913bec8",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_Unit"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: UDT_Unit_Conditions
+  Id: g=d824f8d3cb6ad047156a264df59312fa
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_Unit_Conditions",
+    "DataType": {
+     "IdType": 2,
+     "Id": "d824f8d3cb6ad047156a264df59312fa",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EStopDepressed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDoorOpen",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LightCurtainNotReady",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ScannerNotReady",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AllSafetyOK",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NetworkNotReady",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SupplyNotReady",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyVerified",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyReleased",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyCodeResetRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyClearRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyResetRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyStartRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyAbortRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyStopRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyHoldRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyUnHoldRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnySuspendRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnyUnSuspendRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProductionComplete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HoldAlert",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HoldRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SuspendAlert",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SuspendRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AbortRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StopRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StopBehavior",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ResetDone",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DwnstrAvailForProd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UpstrRdyToSendProd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ParkChangeoverRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotionCalculationsRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VerificationRequested",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SuspendForUpstreamOnly",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IgnoreActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InPos",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MyUNNum",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_Unit_Conditions"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
